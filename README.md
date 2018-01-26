@@ -16,7 +16,7 @@ Note that h2o will need also **java 7-8** installed. On h2o.init() it will start
 
 ### Configuraiton
 
-In the configuration section set the {{data_path}} to the data.tsv
+In the configuration section set the ```data_path``` to the data.tsv
 
 ### Running
 
@@ -28,13 +28,17 @@ Run the notebook
 
 For python you need the followings. If you have anaconda installed you just have to issue the following commands.
 ```
-
+conda install matplotlib
+conda install tensorflow
+conda install keras
+conda install scikit-learn
+conda install pillow
 ```
 
 ### Configuration
 
-Please unzip to images to a folder the notebook can read. Set the {{data_path}} to the folder with the images.
-Please also set {{tensorboard_logs}} to a dir in which tensorflow can write the logs.
+Please unzip the images to a folder the notebook can read. Set the ```data_path``` to the folder with the images.
+Please also set ```tensorboard_logs``` to a dir in which tensorflow can write the logs.
 
 ### Running
 
